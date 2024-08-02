@@ -15,4 +15,4 @@ RUN rm -rf /app/node_modules && rm -rf /app/dist && npm install && npm run build
 
 CMD npm run start:prod
 
-EXPOSE 8080
+EXPOSE 8880
