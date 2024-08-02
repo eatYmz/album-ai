@@ -19,7 +19,7 @@ services:
     restart: on-failure
     tty: true
     ports:
-      - "8080:8080"
+      - "8880:8880"
     env_file:
       - .env.prod
     volumes:
